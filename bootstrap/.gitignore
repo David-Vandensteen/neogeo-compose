@@ -1,0 +1,14 @@
+.DS_Store
+*.png_reject.png
+dist/
+build/
+.vscode
+SPR.cd
+char.bin
+maps.s
+output.map
+palettes.s
+externs.h
+as.exe.stackdump
+*.o
+*.prg
