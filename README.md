@@ -1,16 +1,16 @@
-# Neocore
+# Neogeo Compose
 ![Platform](https://img.shields.io/badge/platform-%20%7C%20windows-lightgrey) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)  
   
 ![](https://media.giphy.com/media/TLfbmyW3523z24WONz/giphy.gif) ![](https://media.giphy.com/media/iFUh5AEPD4XfvpsvJh/giphy.gif) ![](https://media.giphy.com/media/iJObJsdx6ud4zI7cS1/giphy.gif)
 
 
-Neocore is a library and toolchain for developing on Neo Geo CD.  
+Neogeo Compose is a library and toolchain for developing on Neo Geo CD.  
 It provides functions over Neo Dev Kit and DATlib 0.2, and includes tools and code that can help with projects on this platform.  
 
  - High abstraction level for Neo Geo CD development
  - Compatible with ~~Windows 10 and~~ Windows 11
 
-### Game, demo, code learning using Neocore
+### Game, demo, code learning using Neogeo Compose
 
   - Pong : https://github.com/David-Vandensteen/neogeo-cd-pong
   - Flamble :
@@ -25,7 +25,7 @@ It provides functions over Neo Dev Kit and DATlib 0.2, and includes tools and co
 
 ## Init
 ```cmd
-git clone https://github.com/David-Vandensteen/neocore.git
+git clone https://github.com/David-Vandensteen/neogeo-compose.git
 ```
     
 ## Build and run the hello sample
@@ -69,7 +69,7 @@ If you encounter any problems after using it, simply close and restart a new com
 .\mak.bat --version
 ```
 ## Create a project
-* Go to the folder where you've cloned this Neocore repository (*replace `<neocore>` with your path in the following command*)
+* Go to the folder where you've cloned this "Neogeo Compose" repository (*replace `<neocore>` with your path in the following command*)
 ```cmd
 cd <neocore>\bootstrap\scripts\project
 ```
@@ -94,8 +94,8 @@ cd c:\temp\myGame\src
 *It's recommended to back up your project folder before starting.*   
 *This process does not upgrade your code, XML project definition, or assets and you must handle any breaking changes yourself.*   
 *The files mak.bat and mak.ps1 will be overwritten.*   
-*Neocore Toolchain will be replaced.*   
-*Neocore Lib C will be replaced.*   
+*Neogeo Compose Toolchain will be replaced.*   
+*Neogeo Compose Lib C will be replaced.*   
 
 * Remove the `build` folder in your project (*replace `c:\temp\myGame\build` with your path in the following command*)
 
@@ -103,7 +103,7 @@ cd c:\temp\myGame\src
 rd /S /Q c:\temp\myGame\build
 ```
 
-* Go to the folder where you've cloned this Neocore repository (*replace `<neocore>` with your path in the following command*)
+* Go to the folder where you've cloned this "Neogeo Compose" repository (*replace `<neocore>` with your path in the following command*)
 ```cmd
 cd <neocore>\bootstrap\scripts\project
 ```
@@ -132,7 +132,7 @@ cd c:\temp\myGame\src
 .\mak.bat dist:exe
 ```
 
-## Documentation of Neocore C lib
+## Documentation of "Neogeo Compose" C lib
 
   - Doxygen: [http://azertyvortex.free.fr/neocore-doxy/r7/neocore_8h.html](http://azertyvortex.free.fr/neocore-doxy/r7/neocore_8h.html)
     
